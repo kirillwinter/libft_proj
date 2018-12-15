@@ -94,4 +94,6 @@ void			ft_lstpush(t_list **alst, t_list *new);
 size_t			ft_lstlen(t_list *alst);
 void			ft_putstrc(char const *s, unsigned int c);
 
+void			ft_close_file(int fd);
+int				ft_read_file(char *filename);
 #endif
