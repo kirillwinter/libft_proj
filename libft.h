@@ -96,4 +96,5 @@ void			ft_putstrc(char const *s, unsigned int c);
 
 void			ft_close_file(int fd);
 int				ft_read_file(char *filename);
+
 #endif
