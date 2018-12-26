@@ -25,9 +25,9 @@ SRCS = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 	ft_putendl_fd.c ft_putnbr_fd.c ft_strnew.c ft_lstnew.c ft_lstdelone.c \
 	ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c ft_range.c \
 	ft_strpbrk.c ft_intlen.c ft_lstpush.c ft_lstlen.c ft_putstrc.c \
-	ft_close_file.c ft_read_file.c
+	ft_close_file.c ft_read_file.c ft_sqrt.c
 
-INCLUDES = libft.h
+INCLUDES = ./includes
 OBJ = $(SRCS:.c=.o)
 
 all: $(NAME)
